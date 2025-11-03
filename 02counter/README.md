@@ -1,16 +1,60 @@
-# React + Vite
+## 🧮Basic Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive React Counter Application built using React’s useState hook.
+This project demonstrates state management, conditional rendering, and component re-rendering concepts in React.
 
-Currently, two official plugins are available:
+![Coding Animation](https://i.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛠️ Tech Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📸 Project Preview
+![App Screenshot](./src/counter.png)
 
-## Expanding the ESLint configuration
+<details>
+<summary>🛠️ <b>Installation Steps</b> (Click to expand)</summary>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Saadnaikwade1/React/tree/main/02counter
+cd 02counter
+npm install
+npm run dev
+```
+</details>
+
+
+## 📁 Folder Structure
+```
+📦 react-counter-app
+┣ 📂 src
+┃ ┣ 📂 assets 🖼️ → images and icons
+┃ ┣ 📜 App.jsx → main component
+┃ ┣ 🎨 App.css → component styles
+┃ ┗ ⚙️ main.jsx → React entry file
+┣ 📜 index.html
+┣ 📜 package.json
+┗ 🧾 README.md
+```
+
+#### 🧠 What I Learned
+
+- How to use useState() for state management
+
+- How component re-rendering works in React
+
+- Styling a React component with scoped CSS
+
+- Handling events and conditional logic
+
+
+
+---
+
+💡 Built with ❤️ by [Saad A. Naikwade](https://github.com/Saadnaikwade1)
+- 💼 MERN Stack Developer 
+- 📧 naikwadesaad@gmail.com
+- 🌐 LinkedIn | GitHub
