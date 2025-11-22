@@ -10,7 +10,8 @@ function App() {
   //useRef- for taking reff of element
   // const passwordRef=useRef(null)
 
-
+//useRef hook
+const passwordRef=useRef(null);
 
   const passwordGenerator = useCallback(() => {
     let pass = "";
@@ -26,6 +27,12 @@ function App() {
 
     setPassword(pass);
   },[length,numberAllowed,charAllowed,setPassword])
+
+  const copyPasswordToClipboard=useCallback(()=>{
+    window.navigator.clipboard.writeText(password)
+    passwordRef.current?.select()
+    passwordRef.current?.setSelectionRange(0,999)
+  },[password])
 
   useEffect(()=>{
     passwordGenerator()
@@ -44,11 +51,12 @@ function App() {
           className="outline-none w-full py-1 px-3 text-black"
           placeholder="password"
           readOnly
+          ref={passwordRef}
          
 
         />
         <button
-        
+        onClick={copyPasswordToClipboard}
          className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0">
           copy
         </button>

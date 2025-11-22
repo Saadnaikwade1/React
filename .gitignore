@@ -125,6 +125,7 @@ __pycache__/
 *.pyo
 *.pyd
 
+/exam
 # === Optional frontend-specific (React/Angular)
 # Uncomment if using React/Vite in subfolder
 # frontend/node_modules/
