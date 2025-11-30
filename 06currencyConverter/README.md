@@ -5,7 +5,7 @@ This project demonstrates real-time conversion using API data, state management,
 
 ###### Live (click the green button below)
 
-[![Live Demo](https://img.shields.io/badge/LIVE--DEMO-brightgreen?style=for-the-badge)](https://your-live-link-here)
+[![Live Demo](https://img.shields.io/badge/LIVE--DEMO-brightgreen?style=for-the-badge)](https://currency-converter-9lnp.onrender.com/)
 
 ---
 
